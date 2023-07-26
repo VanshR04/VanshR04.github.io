@@ -2,11 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
 }
 
-header{
+.name-dis{
+    color: white;
+    font-family: Josefin Sans,serif;
+}
+
+.top-header{
     position: fixed;
     top: 0;
     left: 0;
@@ -17,7 +20,7 @@ header{
     justify-content: space-between;
     align-items: center;
     z-index: 99;
-    background-color: darkslategrey;
+    background-color: black;
     max-height: 10%;
 }
 
@@ -54,77 +57,26 @@ transition: transform .5s;
 transform-origin: left;
 }
 
-.slideshow-container {
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+.main-header{
+    align-items: center;
+    background: url(https://images.unsplash.com/photo-1562907550-096d3bf9b25c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZGFyayUyMGNvZGV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=1200&q=60) no-repeat 50%/cover;
+    display: flex;
+    height: 95vh;
+    justify-content: center;
+    padding: 0 100px;
     position: relative;
-    background: #f1f1f1f1;
-    margin-top: 10%;
-    max-width: 50%;
-    margin-left: 25%;
-  }
-  
-  /* Slides */
-  .mySlides {
-    display: none;
-    padding: 80px;
     text-align: center;
-  }
-  
-  /* Next & previous buttons */
-  .prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -30px;
-    padding: 16px;
-    color: #888;
-    font-weight: bold;
-    font-size: 20px;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-  }
-  
-  /* Position the "next button" to the right */
-  .next {
-    position: absolute;
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
-  
-  /* On hover, add a black background color with a little bit see-through */
-  .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
-    color: white;
-  }
-  
-  /* The dot/bullet/indicator container */
-  .dot-container {
-    text-align: center;
-    padding: 20px;
-    background: #ddd;
-    max-width: 50%;
-    margin-left: 25%;
-  }
-  
-  /* The dots/bullets/indicators */
-  .dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-  }
-  
-  /* Add a background color to the active dot/circle */
-  .active, .dot:hover {
-    background-color: #717171;
-  }
-  
-  /* Add an italic font style to all quotes */
-  q {font-style: italic;}
-  
-  /* Add a blue color to the author */
-  .author {color: cornflowerblue;}
+    width: 100%;
+}
+
+.bottom-foot{
+    background-color: black;
+    display: block;
+    margin-bottom: 0;
+}
