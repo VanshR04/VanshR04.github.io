@@ -90,8 +90,17 @@ body{
 }
 
 .icon{
-    color: white;
+    color: black;
     font-size: xx-large;
     padding:1rem;
+}
+
+i{
+    color: black;
+}
+
+.git{
+    cursor: pointer;
+    max-width: 20%;
 }
 
