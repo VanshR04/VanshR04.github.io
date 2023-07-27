@@ -67,7 +67,7 @@ body{
     align-items: center;
     background: url(https://images.unsplash.com/photo-1562907550-096d3bf9b25c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZGFyayUyMGNvZGV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=1200&q=60) no-repeat 50%/cover;
     display: flex;
-    height: 92vh;
+    height: 95vh;
     justify-content: center;
     padding: 0 100px;
     position: relative;
@@ -80,13 +80,14 @@ body{
     display: block;
     margin-top: auto!important;
     border-top: 1px solid black;
-    padding: 1.5rem;
+    padding: 1rem;
 }
 
 .bottom-div{
     justify-content: center;
     display: flex;
     height: 20%;
+    padding: 0;
 }
 
 .icon{
@@ -99,8 +100,14 @@ i{
     color: black;
 }
 
-.git{
+.logo{
     cursor: pointer;
-    max-width: 20%;
+    width: 40px;
+    transition:.4s ease all ;
 }
 
+
+.logo:hover{
+    width: 50px;
+    transform: 0.5s;
+}
